@@ -1,0 +1,38 @@
+.containerFooter {
+    margin: 200px 0px 0px 550px;
+    display: flex;
+    width: 30vw;
+    height: 40vh;
+    position: fixed;
+    top: 0;
+    left: -1%;
+    background-color: #070707ed;
+    z-index: 40; 
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px;
+}
+
+.tituloModalFooter {
+    color: #fffefe;
+}
+
+.pModalFooter {
+    margin-left: 8px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.divButtonModaFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonModalFooter {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}

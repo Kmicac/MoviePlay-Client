@@ -1,0 +1,104 @@
+/* card.module.css */
+
+.containerMax {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 180px;
+    height: 338px;
+    border: 1px solid #cccccc4c;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #050505;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.containerMax:hover {
+    transform: scale(1.05);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    
+}
+
+.icon {
+    font-size: 18px;
+    margin: 0 8px;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.icon:hover {
+    color: #3a5fcf;
+}
+
+.agg {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #036379;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ver {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ver:hover{
+background-color: #000000;
+}
+
+
+.quitar{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+
+.agg:hover {
+    background-color: #d10404;
+}
+

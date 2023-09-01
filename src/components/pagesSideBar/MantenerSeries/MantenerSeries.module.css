@@ -1,0 +1,160 @@
+.container {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      color: black;
+      box-shadow: 0px 4px 8px rgb(23, 1, 96);
+      margin-bottom: 50px;
+      font-size: 20px;
+      padding-top: 50px;
+    }
+    
+    
+    .CreateNew {
+      margin-top: 40px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      background-color: #007bff;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 0.1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .tbody{
+      color:black
+    }
+    
+
+    .table1 {
+      width: 100%;
+      border-collapse: collapse;
+      /* margin-top: 20px; */
+      border: 1px solid #ddd;
+      color: rgb(9, 9, 9);
+      
+    }
+
+                .th2 {
+                  padding: 5px;
+                  border: 1px solid #847d7d48;
+                  font-size: 16px;
+                }
+
+    
+
+         .table1:hover {
+background-color: #dc3545;
+         }
+    
+    
+    .tablerow-header {
+      background-color: #007bff;
+      color: rgb(6, 6, 6);
+    }
+    
+    
+    .tablerow {
+      background-color: #f9f9f9;
+
+    }
+    
+    
+    .tablecell {
+      padding: 50px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+     
+    }
+    
+    
+    .paginado {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .but2 {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      margin: 0 5px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .but[disabled] {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    
+    .buttonAccion {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      margin-right: 5px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .buttonAccion1 {
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      margin-right: 5px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .buttonAccion2 {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      margin-right: 5px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+.addButtons {
+background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+  
+}
+
+
+.th2 {
+  padding: 15px;
+  margin-right: 10px;
+    border: 1px solid #847d7d48;
+    font-size: small;
+    padding-top: 10px;
+}
+
+
+.addButtons1 {
+background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+    

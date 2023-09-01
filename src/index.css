@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgb(253, 253, 253);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}

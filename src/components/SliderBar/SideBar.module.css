@@ -1,0 +1,39 @@
+/* SideBar.module.css */
+
+.sidebar {
+    display: block;
+    flex-direction: column;
+    width: 220px;
+    background-color: #03315e;
+    padding: 25px;
+    
+    
+}
+
+.ulSidebar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ulSidebar li {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.ulSidebar a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.ulSidebar a:hover {
+    color:red;
+}
+
+.ulSidebar a svg {
+    margin-right: 10px;
+}

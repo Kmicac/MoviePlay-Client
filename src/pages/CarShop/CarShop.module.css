@@ -1,0 +1,131 @@
+/* Estilos generales */
+.maxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: grey;
+  padding: 40px 0;
+}
+
+/* Barra de navegación */
+.nav {
+  height: 60px;
+  background-color: #1E272E;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.textNav {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* Contenido del carrito */
+.card {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgb(209, 61, 61);
+  background-color: white;
+  border-radius: 8px;
+  height: 200px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.imagen {
+  height: 70px;
+  width: 200px;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #60606032;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: #e4e9f1;
+  color: #080808;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: large;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Resumen y finalización */
+.submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.textSubmit {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.continuar {
+  margin-top: 0;
+  height: 60px;
+  width: 200px;
+  color: white;
+  background-color: #14b719;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.continuar:hover {
+  background-color: #129313;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #080808;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 300px;
+}
+
+.textoTargeta {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}

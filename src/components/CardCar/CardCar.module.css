@@ -1,0 +1,61 @@
+.image{
+    width: 116px;
+    height: 176px;
+    background-size: cover
+}
+
+.container{
+    box-shadow: 2px 4px 15px 0 rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.name{
+    font-size: 30px;
+    color: black;
+}
+
+.containerName{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    font-size: 30px;
+    color: black;
+}
+
+.priceContainer{
+    width: 200px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+.containerBoton{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    background-color: red;
+}
+
+.boton:hover{
+    background-color: brown;
+}
