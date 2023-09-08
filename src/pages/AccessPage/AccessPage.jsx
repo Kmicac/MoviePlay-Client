@@ -65,7 +65,7 @@ const AccessPage = () => {
             try {
                 const {data} = await axios.post('/usuario/login', userGet)
 
-               console.log(data);
+            //    console.log(data);
 
                 localStorage.setItem('id', data.id);
                 localStorage.setItem('email', data.email);
@@ -120,7 +120,7 @@ const AccessPage = () => {
 
             const {data} = await axios.post(`/usuario/google?email=${email.email}`)  
 
-             console.log(data);
+            //  console.log(data);
 
 
             localStorage.setItem('Token', response.credential);
@@ -138,7 +138,7 @@ const AccessPage = () => {
                 password: ''
             })
 
-           // redirectToHome()
+           redirectToHome()
 
         } catch (error) {
             setMensajeGoogle(true)
