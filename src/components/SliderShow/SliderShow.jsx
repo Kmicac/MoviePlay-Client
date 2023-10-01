@@ -1,8 +1,5 @@
 import React,{useRef,useEffect} from "react";
 import {useNavigate} from "react-router-dom"
-import img1 from "../../assets/caret-left-square.svg"
-import image1 from '../../assets/Mavka.jpg';
-import img2 from "../../assets/caret-left-square.svg"
 import styled from "styled-components"
 import './SliderShow.css';
 
@@ -21,7 +18,7 @@ const siguiente = ()=> {
         //Obtenemos el primer elemento  del slideshow
         const primerElemento = slidershow.current.children[0];
 
-        slidershow.current.style.transition = `3000ms ease-out all`;
+        slidershow.current.style.transition = `2000ms ease-out all`;
 
         const tamañoSlider = slidershow.current.children[0].offsetWidth;
         slidershow.current.style.transform = `translateX(-${tamañoSlider}px)`;
@@ -50,7 +47,7 @@ const anterior = ()=> {
         slidershow.current.style.transform = `translateX(-${tamañoSlider}px)`;
 
         setTimeout(()=> {
-            slidershow.current.style.transition = '3000ms ease-out all';
+            slidershow.current.style.transition = '2000ms ease-out all';
             slidershow.current.style.transform = `translateX(0)`;
       
         },30)
@@ -80,7 +77,7 @@ const anterior = ()=> {
         <ContenedorSliderShow ref={slidershow}>
             <Slider>
                 <a>
-                 <img src={image1}/>
+                 <img src="https://www.themoviedb.org/t/p/original/yF1eOkaYvwiORauRCPWznV9xVvi.jpg"/>
                 </a>
                 {/* <TextSlider>
                     <a>$ 18.45</a>
@@ -88,7 +85,7 @@ const anterior = ()=> {
             </Slider>
             <Slider>
                 <a>
-                        <img src="https://hips.hearstapps.com/hmg-prod/images/barbie-margot-robbie-64b7997423918.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"/>
+                        <img src="https://www.themoviedb.org/t/p/original/i3OTGmLNOZIo4SRQLVfLjeWegB6.jpg"/>
                 </a>
                 {/* <TextSlider > 
                     <a>$ 18.45</a>
@@ -96,7 +93,7 @@ const anterior = ()=> {
             </Slider>
             <Slider>
                 <a>
-                        <img src="https://www.nintenderos.com/wp-content/uploads/2023/07/super-mario-bros.jpg"/>
+                        <img src="https://www.themoviedb.org/t/p/original/eMPxmNvJjxVZIQWI2t1VmNC5IuR.jpg"/>
                 </a>
                 {/* <TextSlider >
                     <a>$ 15.45</a>
@@ -183,7 +180,7 @@ const Boton = styled.button`
       height: 100%;
       text-align: center;
       position: absolute;
-      transition: .3s ease all;
+      transition: .2s ease all;
 
       ${props => props.derecho === "true" ? 'right:0' : 'left:0' }
 
